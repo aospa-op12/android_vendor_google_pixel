@@ -1,5 +1,9 @@
 product/app/MarkupGoogle_v2/MarkupGoogle_v2.apk;PRESIGNED
+product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
+product/app/PixelThemesStub2022_and_newer/PixelThemesStub2022_and_newer.apk;PRESIGNED
+product/app/PixelWallpapers2024/PixelWallpapers2024.apk;PRESIGNED
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
+product/app/WallpaperEmojiPrebuilt-v470/WallpaperEmojiPrebuilt-v470.apk;PRESIGNED
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
 product/etc/sysconfig/game_service.xml
@@ -93,8 +97,11 @@ product/media/audio/ui/Unlock.ogg
 product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
-product/priv-app/WeatherPixelPrebuilt_24D1/WeatherPixelPrebuilt_24D1.apk;PRESIGNED
+product/priv-app/AiWallpapers/AiWallpapers.apk;PRESIGNED
+product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
+product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
+product/priv-app/WeatherPixelPrebuilt_24D1/WeatherPixelPrebuilt_24D1.apk;PRESIGNED
 system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/default-permissions/default-permissions_pixelweather.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml
@@ -108,3 +115,4 @@ system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
 system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk
 system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
 system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
+system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,ParanoidThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED

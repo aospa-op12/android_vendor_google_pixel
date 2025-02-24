@@ -20,6 +20,42 @@ android_app_import {
 }
 
 android_app_import {
+	name: "PixelThemesStub",
+	owner: "google",
+	apk: "proprietary/product/app/PixelThemesStub/PixelThemesStub.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PixelThemesStub2022_and_newer",
+	owner: "google",
+	apk: "proprietary/product/app/PixelThemesStub2022_and_newer/PixelThemesStub2022_and_newer.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PixelWallpapers2024",
+	owner: "google",
+	apk: "proprietary/product/app/PixelWallpapers2024/PixelWallpapers2024.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "SoundPickerPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk",
@@ -33,12 +69,63 @@ android_app_import {
 }
 
 android_app_import {
+	name: "WallpaperEmojiPrebuilt-v470",
+	owner: "google",
+	apk: "proprietary/product/app/WallpaperEmojiPrebuilt-v470/WallpaperEmojiPrebuilt-v470.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "AiWallpapers",
+	owner: "google",
+	apk: "proprietary/product/priv-app/AiWallpapers/AiWallpapers.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PixelLiveWallpaperPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
 	name: "SettingsIntelligenceGooglePrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	overrides: ["SettingsIntelligence"],
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "WallpaperEffect",
+	owner: "google",
+	apk: "proprietary/product/priv-app/WallpaperEffect/WallpaperEffect.apk",
+	preprocessed: true,
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -186,6 +273,20 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk",
 	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "WallpaperPickerGoogleRelease",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk",
+	overrides: ["ThemePicker", "ParanoidThemePicker", "WallpaperPicker", "WallpaperPicker2", "WallpaperCropper"],
+	preprocessed: true,
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
