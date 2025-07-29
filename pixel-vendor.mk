@@ -106,6 +106,7 @@ PRODUCT_PACKAGES += \
     MarkupGoogle_v2 \
     SoundPickerPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
+    WeatherPixelPrebuilt_24D1 \
     Flipendo \
     SetupWizardPixelPrebuilt \
     SystemUIClocks-BigNum \
